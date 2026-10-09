@@ -1,0 +1,68 @@
+/* Main Color */
+/* 
+
+  اللون الأساسي - الهيدر والفوتر والعناوين الداكنة 
+  #0D2E4D
+
+   لون أغمق شوي عند الحاجة 
+  #0A2948
+
+   اللون المميز - الأزرار والأيقونات والخطوط 
+  #12A8AE
+
+   تركواز أغمق للـ hover 
+  #0B8F95
+
+   خلفية الصفحة 
+  #F4F8FB
+
+   خلفيات الأقسام الفاتحة 
+  #E9F8F8
+
+   خلفية تركواز فاتحة 
+   #DDF3F6
+
+   خلفية البطاقات 
+   #FFFFFF
+
+   النص الأساسي 
+   #172B3A
+
+   النص الثانوي 
+   #6F7F8C
+
+   حدود الحقول والجداول 
+   #DDE7EE
+
+   لون خفيف جداً للصفوف 
+   #F3F6F9
+
+   لون الصف المختار 
+   #DDF3F6
+
+   لون الخطأ 
+   #C43D4A
+
+
+*/
+
+body {
+  background-color: #f4f8fb;
+  color: #172b3a;
+}
+
+.btn-primary {
+  background-color: #12a8ae;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b8f95;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dde7ee;
+  border-radius: 10px;
+}
