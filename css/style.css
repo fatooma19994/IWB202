@@ -66,3 +66,58 @@ body {
   border: 1px solid #dde7ee;
   border-radius: 10px;
 }
+/* تنسيق جدول السيارات */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+/* تنسيق خلايا الجدول */
+th,
+td {
+  border: 1px solid #dde7ee;
+  padding: 10px;
+  text-align: center;
+}
+
+/* تنسيق عناوين الأعمدة */
+th {
+  background-color: #0d2e4d;
+  color: #ffffff;
+}
+
+/* تلوين الصفوف بالتناوب */
+tbody tr:nth-child(even) {
+  background-color: #f3f6f9;
+}
+
+/* تأثير المرور على صفوف الجدول */
+tbody tr:hover {
+  background-color: #ddf3f6;
+}
+
+/* تنسيق مربعات الاختيار */
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #12a8ae;
+  cursor: pointer;
+}
+
+/* تنسيق زر المتابعة */
+#continueButton {
+  background-color: #12a8ae;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* تأثير المرور على زر المتابعة */
+#continueButton:hover {
+  background-color: #1f6c70;
+}
