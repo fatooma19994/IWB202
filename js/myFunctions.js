@@ -3,13 +3,6 @@ $(document).ready(function () {
     var carCode = $(this).val();
     var detailsRow = $("#details-" + carCode);
 
-        if ($(this).is(":checked")) {
-            detailsRow.show();
-        } else {
-            detailsRow.hide();
-        }
-    });
-});
 
 
 /* تنفيذ الأوامر بعد تحميل الصفحة */
