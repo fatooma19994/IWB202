@@ -10,3 +10,22 @@ $(document).ready(function () {
         }
     });
 });
+
+
+/* تنفيذ الأوامر بعد تحميل الصفحة */
+$(document).ready(function () {
+
+    /* تنفيذ الأوامر عند الضغط على زر متابعة */
+    $("#continueButton").click(function () {
+
+        /* إظهار نموذج الحجز */
+        $("#booking").show();
+
+        /* الانتقال بسلاسة إلى مكان نموذج الحجز */
+        $("#booking").get(0).scrollIntoView({
+            behavior: "smooth"
+        });
+
+    });
+
+});

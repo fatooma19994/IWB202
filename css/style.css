@@ -78,7 +78,7 @@ table {
 th,
 td {
   border: 1px solid #dde7ee;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ input[type="checkbox"] {
   color: #ffffff;
   border: none;
   border-radius: 6px;
-  padding: 10px 24px;
+  padding: 15px 50px;
   margin-top: 15px;
   cursor: pointer;
 }
@@ -120,4 +120,10 @@ input[type="checkbox"] {
 /* تأثير المرور على زر المتابعة */
 #continueButton:hover {
   background-color: #1f6c70;
+}
+/* تحديد حجم صور السيارات */
+table img {
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
 }
