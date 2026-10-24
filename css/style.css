@@ -127,3 +127,194 @@ table img {
   height: 55px;
   object-fit: cover;
 }
+
+header {
+  background-color: #0d2e4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 50px;
+}
+.logo-car {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-car i {
+  color: #12a8ae;
+  font-size: 26px;
+}
+header nav a {
+  color: #ffffff;
+  margin-right: 25px;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* بداية صفحة index */
+/* القسم الاول من الصفحة  */
+.mainsection {
+  background:
+    linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0) 60%
+    ),
+    url(img1.jpg) center/cover no-repeat;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  padding: 40px 70px;
+}
+.mainsection h1 {
+  color: #172b3a;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.mainsection p {
+  color: #6f7f8c;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.butten {
+  display: inline-block;
+  background-color: #12a8ae;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 14px 34px;
+  text-decoration: none;
+}
+/* فريق  العمل */
+.workteam {
+  text-align: center;
+  color: #0d2e4d;
+  font-size: 30px;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: #12a8ae;
+  border-radius: 3px;
+  margin: 10px auto 35px;
+}
+
+.team {
+  padding: 45px 60px;
+}
+.workteam-card {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  background-color: #ffffff;
+  flex: 1;
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.05);
+}
+.icon {
+  width: 85px;
+  height: 85px;
+  background-color: #f4f8fb;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon i {
+  font-size: 42px;
+  color: #6f7f8c;
+}
+.card h3 {
+  color: #172b3a;
+  margin-bottom: 6px;
+}
+.card .name-student {
+  color: #6f7f8c;
+  margin-bottom: 8px;
+}
+.card .numder {
+  color: #67717c;
+  font-size: 15px;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  padding: 0 60px 45px;
+}
+.box {
+  flex: 1;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.box h3 {
+  color: #0d2e4d;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+.box p {
+  color: #12a8ae;
+}
+.icon-circle {
+  width: 55px;
+  height: 55px;
+  min-width: 55px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-circle i {
+  font-size: 24px;
+}
+.notes .icon-circle i {
+  color: #12a8ae;
+}
+.link .icon-circle i {
+  color: #12a8ae;
+}
+.big-icon {
+  font-size: 80px;
+  opacity: 0.3;
+}
+.notes .big-icon {
+  color: #50a5cc;
+}
+.link .big-icon {
+  color: #12a8ae;
+}
+.notes {
+  background-color: #d9dee2;
+}
+.link {
+  background-color: #d9dee2;
+}
+
+.btn {
+  padding: 10px 22px;
+  font-size: 15px;
+  color: #f4f8fb;
+
+  text-decoration: none;
+}
+button {
+  color: #12a8ae;
+  padding: 10px;
+  margin: 10px;
+  background-color: #12a8ae;
+  border-radius: 5px;
+  border: none;
+}
+/* الانتهاء من صفحة index */
