@@ -49,8 +49,17 @@
 body {
   background-color: #f4f8fb;
   color: #172b3a;
+  direction: rtl;
 }
 
+.py-15 {
+  padding: 20px 0;
+}
+
+.text-dark {
+  color: #333;
+  background-color: transparent;
+}
 .btn-primary {
   background-color: #12a8ae;
   color: white;
@@ -66,6 +75,7 @@ body {
   border: 1px solid #dde7ee;
   border-radius: 10px;
 }
+
 /* تنسيق جدول السيارات */
 table {
   width: 100%;
@@ -98,6 +108,14 @@ tbody tr:hover {
   background-color: #ddf3f6;
 }
 
+tbody tr td span {
+  color: #fff;
+  font-weight: bold;
+  background: #0d2e4d;
+  border-radius: 4px;
+  padding: 3px;
+}
+
 /* تنسيق مربعات الاختيار */
 input[type="checkbox"] {
   width: 16px;
@@ -108,9 +126,6 @@ input[type="checkbox"] {
 
 /* تنسيق زر المتابعة */
 #continueButton {
-  background-color: #12a8ae;
-  color: #ffffff;
-  border: none;
   border-radius: 6px;
   padding: 15px 50px;
   margin-top: 15px;
@@ -162,7 +177,7 @@ header nav a {
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0) 60%
     ),
-    url(img1.jpg) center/cover no-repeat;
+    url(../img/img1.jpg) center/cover no-repeat;
   min-height: 360px;
   display: flex;
   align-items: center;
@@ -180,8 +195,6 @@ header nav a {
 }
 .butten {
   display: inline-block;
-  background-color: #12a8ae;
-  color: #ffffff;
   border-radius: 10px;
   font-size: 20px;
   padding: 14px 34px;
@@ -318,3 +331,7 @@ button {
   border: none;
 }
 /* الانتهاء من صفحة index */
+
+.mh-160 {
+  min-height: 160px;
+}
