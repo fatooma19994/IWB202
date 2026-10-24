@@ -191,9 +191,114 @@
     </table>
 
     <!-- زر متابعة لإظهار نموذج الحجز -->
-    <button type="button" class="btn-primary" id="continueButton">
-      متابعة
-    </button>
+    <div class="text-end">
+      <button type="button" class="btn-primary" id="continueButton">
+        متابعة
+      </button>
+    </div>
+
+    <div class="main" id="booking">
+      <div class="heading">
+        <div class="date" aria-hidden="true">▦</div>
+        <div>
+          <h1>طلب الحجز</h1>
+          <p>أكمل البيانات التالية لحجز السيارات المختارة</p>
+        </div>
+      </div>
+
+      <form onsubmit="submitForm(event)" action="#" method="post">
+        <fieldset>
+          <legend>معلومات مقدم الطلب</legend>
+
+          <div class="data">
+            <div class="inputbox">
+              <label for="full-name"
+                >الاسم الكامل <span class="opt">(اختياري)</span></label
+              >
+              <input
+                name="full-name"
+                type="text"
+                id="full_name"
+                onchange="checkFullName()"
+              />
+              <small class="text-red" id="error_full_name"></small>
+            </div>
+
+            <div class="inputbox">
+              <label for="national-id"
+                >الرقم الوطني <span class="req">*</span></label
+              >
+              <input
+                id="national_id_number"
+                onchange="checkNationalIdNumber()"
+                name="national-id"
+                type="text"
+                required="required"
+                inputmode="numeric"
+                maxlength="11"
+                placeholder="أدخل الرقم الوطني"
+              />
+              <small class="text-red" id="error_national_id_number"></small>
+            </div>
+
+            <div class="inputbox">
+              <label for="start-date">تاريخ بداية التأجير </label>
+              <input id="start_date" name="start-date" type="date" />
+            </div>
+
+            <div class="inputbox">
+              <label for="end-date"
+                >تاريخ نهاية التأجير <span class="req">*</span></label
+              >
+              <input
+                name="end-date"
+                type="date"
+                required="required"
+                id="end_date"
+                onchange="checkEndDate()"
+              />
+              <small class="text-red" id="error_end_date"></small>
+            </div>
+
+            <div class="inputbox">
+              <label for="mobile"
+                >رقم الموبايل <span class="req">*</span></label
+              >
+              <input
+                id="mobile"
+                name="mobile"
+                type="tel"
+                itemid="mobile"
+                placeholder="أدخل رقم الموبايل"
+                required="required"
+                onchange="checkMobile()"
+              />
+              <small class="text-red" id="error_mobile"></small>
+            </div>
+
+            <div class="inputbox">
+              <label for="email"
+                >البريد الإلكتروني <span class="opt">(اختياري)</span>
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="أدخل البريد الإلكتروني"
+              />
+            </div>
+          </div>
+
+          <p class="info">
+            <span class="req">*</span> الحقول المعلّمة بنجمة إلزامية
+          </p>
+
+          <div class="text-end">
+            <button class="btn-primary" type="submit">إرسال</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
