@@ -176,7 +176,7 @@ header nav a {
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0) 60%
     ),
-    url(../img/img1.jpg) center/cover no-repeat;
+    url(../images/img1.jpg) center/cover no-repeat;
   min-height: 360px;
   display: flex;
   align-items: center;
@@ -254,6 +254,12 @@ header nav a {
 .card .numder {
   color: #67717c;
   font-size: 15px;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  padding: 0 60px 45px;
 }
 
 .box {
