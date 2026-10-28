@@ -261,8 +261,11 @@ header nav a {
   margin-bottom: 8px;
   font-size: 25px;
 }
-.box p {
+.box p,
+.box p a {
   color: #12a8ae;
+  text-decoration: none;
+  text-align: center;
 }
 .icon-circle {
   width: 55px;
