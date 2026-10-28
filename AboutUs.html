@@ -1,10 +1,14 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" xml:lang="ar" dir="rtl">
+<html lang="ar">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>من نحن</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="site-header">
@@ -14,37 +18,89 @@
         ><a href="Cars.html">السيارات</a>
       </div>
     </div>
-    <div class="about-content">
-      <h1>من نحن</h1>
-      <p>
-        مكتب تأجير السيارات يقدم خيارات اقتصادية وعائلية وفاخرة مع عرض الأسعار
-        اليومية ومواصفات كل سيارة قبل تقديم طلب الحجز.
-      </p>
-      <p class="form-note">
-        البيانات التالية نموذج تعليمي افتراضي، وتُستبدل ببيانات المكتب الفعلية
-        قبل النشر.
-      </p>
-      <div class="card">
-        <h2>خدماتنا</h2>
-        <p>
-          تأجير يومي، اختيار عدة سيارات، وحساب تكلفة التأجير وخصم 10% للمدة التي
-          تتجاوز 7 أيام.
-        </p>
-      </div>
-      <div class="card">
-        <h2>معلومات التواصل</h2>
-        <p>الهاتف التجريبي: <span dir="ltr">011 000 0000</span></p>
-        <p>
-          البريد التجريبي:
-          <a href="mailto:info@example.com">info@example.com</a>
-        </p>
-      </div>
-      <div class="card">
-        <h2>الفروع وأوقات الدوام</h2>
-        <p>فرع دمشق: منطقة المزة — موقع افتراضي.</p>
-        <p>فرع حلب: منطقة الفرقان — موقع افتراضي.</p>
-        <p>من السبت إلى الخميس، من 9 صباحاً إلى 6 مساءً. الجمعة عطلة.</p>
-      </div>
-    </div>
+    <main>
+      <section class="about">
+        <h1>من نحن</h1>
+        <p>نساعدك في اختيار السيارة المناسبة لرحلتك</p>
+      </section>
+      <section class="office">
+        <div class="card">
+          <div class="text">
+            <h2>عن الشركة :</h2>
+            <p>
+              يوفر لكم مكتبنا الثقة والضمان من خلال وضع احدث السيارات بين ايديكم
+              فنحن نسعى لتقديم الخيار الأنسب لرحلتكم ولضمان راحتكم نقدم لكم
+              اسطول متنوع من السيارات الحديثة للإجار اليومي والاسبوعي او الشهري
+              وبإسعار مدروسة بعناية كم يمكنكم لإطلاع على كافة لعروض والخدمات
+              الموجودة لدينا من خلال زيارة صفحة السيارات.<br />إدارة الشركة ترحب
+              بكم
+            </p>
+          </div>
+          <div class="sup">
+            <div class="text-center sup1">
+              <div class="circle-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <h3>دعم مستمر</h3>
+              <p class="sup-paragraph">فريق جاهز لمساعدتك</p>
+            </div>
+            <div class="text-center sup2">
+              <div class="circle-icon">
+                <i class="fa-solid fa-user-secret"></i>
+              </div>
+              <h3>موثوقية عالية</h3>
+              <p class="sup-paragraph">خدمة آمنة وموثوقة</p>
+            </div>
+            <div class="text-center sup3">
+              <div class="circle-icon">
+                <i class="fa-solid fa-car"></i>
+              </div>
+              <h3>أسطول متنوع</h3>
+              <p class="sup-paragraph">يناسب جميع احتياجاتك</p>
+            </div>
+          </div>
+        </div>
+        <div class="img"><img src="images/about.jpg" alt="photo" /></div>
+      </section>
+
+      <section class="call">
+        <div class="card container-call">
+          <div class="caption">
+            <h2 id="h">فروعنا وأوقات الدوام</h2>
+            <p id="p">نرحب بكم في فروعنا خلال أوقات الدوام الرسمية</p>
+          </div>
+
+          <div class="branch">
+            <div class="branch-card">
+              <div class="img2">
+                <img src="images/about.jpg" width="400px" height="130px" />
+              </div>
+              <h3>فرع دمشق</h3>
+              <p>السبت - الخميس - 9 صباحاً - 7 مساءً</p>
+              <p>ساحة الامويين - قرب مبنى الإذاعة والتلفزيون</p>
+            </div>
+            <div class="branch-card">
+              <div class="img3">
+                <img src="images/about.jpg" width="400px" height="130px" />
+              </div>
+              <h3>فرع اللاذقية</h3>
+              <p>السبت - الخميس - 9 صباحاً - 7 مساءً</p>
+              <p>شارع بورسعيد - قرب بن العلبي</p>
+            </div>
+          </div>
+        </div>
+        <aside class="contact-card">
+          <h2>تواصل معنا</h2>
+          <p>..نحن دائماً هنا للإجابة</p>
+
+          <p>الهاتف : +963 999 666 333</p>
+          <p>البريد الالكتروني: info@gmail.com</p>
+
+          <button class="btn-primary butten" type="button">
+            أرسل لنا رسالة
+          </button>
+        </aside>
+      </section>
+    </main>
   </body>
 </html>

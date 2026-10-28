@@ -55,12 +55,6 @@
   background-color: transparent;
 }
 
-.card {
-  background-color: #ffffff;
-  border: 1px solid #dde7ee;
-  border-radius: 10px;
-}
-
 /* تنسيق جدول السيارات */
 table {
   width: 100%;
@@ -112,7 +106,7 @@ input[type="checkbox"] {
 /* تنسيق زر المتابعة */
 #continueButton {
   border-radius: 6px;
-  margin-top: 15px;
+  margin: 15px 10px 10px 10px;
   cursor: pointer;
 }
 
@@ -181,7 +175,7 @@ header nav a {
   display: inline-block;
   border-radius: 10px;
   font-size: 20px;
-  padding: 14px 34px;
+  padding: 8px 34px;
   text-decoration: none;
 }
 /* فريق  العمل */
@@ -207,12 +201,13 @@ header nav a {
   gap: 20px;
 }
 .card {
-  background-color: #ffffff;
   flex: 1;
   text-align: center;
   padding: 30px 15px;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgb(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  border: 1px solid #dde7ee;
 }
 .icon {
   width: 85px;
@@ -310,12 +305,7 @@ header nav a {
 
   text-decoration: none;
 }
-button {
-  width: 90px;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-}
+
 /* الانتهاء من صفحة index */
 
 .mh-160 {
@@ -516,7 +506,7 @@ button {
 }
 body {
   margin: 0;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7;
   background-color: #f4f8fb;
@@ -649,4 +639,135 @@ input:focus {
 }
 .result-table tfoot span {
   color: #078d91;
+}
+
+a {
+  text-decoration: none;
+  color: #12a8ae;
+  font-weight: bold;
+  padding: 6px;
+  margin-right: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.logo {
+  color: #12a8ae;
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.about {
+  color: #172b3a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.office {
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+  padding: 0 27px;
+}
+
+.office .card {
+  margin-left: 20px;
+}
+
+.img img {
+  width: 800px;
+  height: 444px;
+  border-radius: 15px;
+}
+
+.circle-icon {
+  background-color: #078c912b;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 3;
+  margin: auto;
+}
+.circle-icon i {
+  color: #078d91;
+}
+.text {
+  color: #172b3a;
+  font-weight: bold;
+  text-align: right;
+  height: auto;
+  width: 100%;
+}
+.text p {
+  color: #6f7f8c;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+  white-space: normal;
+}
+.sup {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 3rem;
+}
+.sup-paragraph {
+  color: gray;
+  margin-top: 0px;
+}
+
+.call {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px 10px 25px;
+}
+.container-call {
+  width: 70%;
+  margin-top: 20px;
+}
+.branch {
+  display: flex;
+}
+.branch .branch-card {
+  margin-right: 20px;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.05);
+}
+.branch > .branch-card:first-of-type {
+  margin-right: 0;
+}
+.tell {
+  border-radius: 20px 20px;
+  text-align: right;
+  color: #172b3a;
+  background: #ddf3f6;
+  font-weight: bold;
+}
+.tell2 {
+  border-radius: 20px 20px;
+  text-align: right;
+  color: #172b3a;
+  background: #ddf3f6;
+  font-weight: bold;
+}
+
+.caption {
+  text-align: center;
+  color: 172B3A;
+}
+#p {
+  font-weight: bold;
+}
+.contact-card {
+  background: #ddf3f6;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: right;
+  width: 25%;
+  margin-right: 20px;
+  padding: 15px 34px;
+}
+.contact-info textarea {
+  text-align: right;
 }
